@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang=">en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../tail.css" rel="stylesheet">
+    <script src="../icons.ts" type="module" defer></script>
+    <script src="./index.ts" type="module" defer></script>
+    <title>Document</title>
+</head>
+<body class="overflow-hidden">
+    <header class="w-full absolute py-[15px] px-[14px]"> 
+        <div class="h-[3.90vh] w-[6.93vw] rounded-full bg-white flex justify-center items-center">
+            <i data-lucide="chevron-left" color="#000000"></i>
+        </div> 
+    </header>
+    <main>
+        <div id="map-proto" class="w-full h-[63.71vh] bg-gray-700 bg-[url(../../public/image.png)]">
+        </div>
+        <div id="abrigos-div" class="w-full h-full bg-white">
+            <div class="flex flex-col items-center mt-[38px] gap-[28px] w-full">
+                <h1 class="text-[#3550B7] font-bold text-[16px]">Abrigos proxímos da sua localização</h1>
+                <ul class="w-full h-full overflow-y-scroll px-[18px] bg-white [&>*:nth-child(odd)]:bg-[#F6F6F6] flex flex-col gap-[6px]">
+                    <li class="w-full h-[8.09vh]">
+                        <button class="w-full h-full flex justify-between items-center pr-[26px] pl-[8px]">
+                            <div class="flex justify-center items-center gap-[12.25px] ">
+                                <div class="h-[5.80vh] w-[10.33vw] bg-[#3550B7] rounded-[100%] flex justify-center items-center">
+                                    <i data-lucide="house" color="#FFFFFF"></i>
+                                </div>
+                                <span class="font-semibold text-[14px]">Igreja São Bento</span>
+                            </div>
+                            <span><strong>15</strong> vagas</span>
+                        </button> 
+                    </li>
+                    <li class="w-full h-[8.09vh]">
+                        <button class="w-full h-full flex justify-between items-center pr-[26px] pl-[8px]">
+                            <div class="flex justify-center items-center gap-[12.25px] ">
+                                <div class="h-[5.80vh] w-[10.33vw] bg-[#3550B7] rounded-[100%] flex justify-center items-center">
+                                    <i data-lucide="house" color="#FFFFFF"></i>
+                                </div>
+                                <span class="font-semibold text-[14px]">Ginásio de Esporte</span>
+                            </div>
+                            <span><strong>15</strong> vagas</span>
+                        </button> 
+                    </li>
+                    <li class="w-full h-[8.09vh]">
+                        <button class="w-full h-full flex justify-between items-center pr-[26px] pl-[8px]">
+                            <div class="flex justify-center items-center gap-[12.25px] ">
+                                <div class="h-[5.80vh] w-[10.33vw] bg-[#7A7A7A] rounded-[100%] flex justify-center items-center">
+                                    <i data-lucide="house" color="#FFFFFF"></i>
+                                </div>
+                                <span class="font-semibold text-[14px]">Igreja São João</span>
+                            </div>
+                            <span><strong>Lotado</strong></span>
+                        </button> 
+                    </li>
+                    <li class="w-full h-[8.09vh]">
+                        <button class="w-full h-full flex justify-between items-center px-[8px]">
+                            <div class="flex justify-center items-center gap-[12.25px] ">
+                                <div class="h-[5.80vh] w-[10.33vw] bg-[#3550B7] rounded-[100%] flex justify-center items-center">
+                                    <i data-lucide="house" color="#FFFFFF"></i>
+                                </div>
+                                <span>Igreja São Bento</span>
+                            </div>
+                            <span>15 vaga</span>
+                        </button> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
